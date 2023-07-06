@@ -7,5 +7,5 @@ commands:
 packages:
 	pnpm add -D prisma 
 	pnpm add @prisma/client
-	pnpm add zod
+	pnpm add zod react-hook-form @hookform/resolvers
 	
