@@ -26,7 +26,7 @@ export default function CheckBox({ todo }: CheckBoxProps) {
         )
       }
       disabled={isPending}
-      className="h-6 w-6 border-gray-300"
+      className="h-6 w-6 border-gray-300 disabled:bg-gray-300 disabled:border-gray-300 disabled:cursor-not-allowed"
     />
   );
 }
